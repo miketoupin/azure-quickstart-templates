@@ -67,7 +67,7 @@
     {
       "type": "Microsoft.Compute/virtualMachines/extensions",
       "name": "[concat(parameters('vmName'),'/', variables('extensionName'))]",
-      "location": "[parameters('location')]",
+      "location": "canadacentral",
       "apiVersion": "2017-03-30",
       "properties": {
         "publisher": "Microsoft.Azure.Security",
